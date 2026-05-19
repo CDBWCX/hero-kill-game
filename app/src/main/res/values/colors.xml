@@ -1,0 +1,12 @@
+<resources>
+    <color name="primary">#1a1a2e</color>
+    <color name="primary_variant">#16213e</color>
+    <color name="secondary">#e94560</color>
+    <color name="secondary_variant">#ff6b6b</color>
+    <color name="background">#0f0f1a</color>
+    <color name="surface">#1a1a2e</color>
+    <color name="text">#ffffff</color>
+    <color name="text_secondary">#b8b8b8</color>
+    <color name="accent">#4ecdc4</color>
+    <color name="green">#4CAF50</color>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="80dp"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:gravity="center"
+    android:background="@color/primary_variant"
+    android:elevation="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/card_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="杀"
+        android:textColor="@color/text"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/card_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:id="@+id/card_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="描述"
+        android:textColor="@color/accent"
+        android:textSize="8sp"
+        android:layout_marginTop="2dp"/>
+
+</LinearLayout>
